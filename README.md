@@ -37,36 +37,23 @@ $ git commit -m "супер новый текстовый файл 3000"
  
 ## 11.Посмотреть изменения в файле по сравнению с последним коммитом.  
 ```
-git log -n
-commit 20f09aba418a73d2ced73a2cf1d97e64623bb76d (HEAD -> main)
-Author: Bebesova <Zevaliheim@gmail.com>
-Date:   Wed Mar 13 13:55:35 2024 +0500
+$ git log --oneline
+5dc3ac7 (HEAD -> Branch45, origin/main, origin/HEAD, main) ДОБАВЛЕН МЕГА ОБЗАЦ
+e99338b Merge branch 'main' of https://github.com/bebesova/pib
+3ddfac0 README.md
+20f09ab Супер новый текстовый файл 3000
+0d1cdf3 пятый
+0be876d четвертый
+83c04b9 Третий
+2c87e56 второй
+c6a06d9 Первый
+5c6f330 README.md
 
-    Супер новый текстовый файл 3000
-
+София и Вовка@DESKTOP-MPV0NJU MINGW64 /d/bup/pib (Branch45)
+$ git diff 0d1cdf3 20f09ab
 diff --git a/Newtext.txt b/Newtext.txt
 new file mode 100644
 index 0000000..e69de29
-
-commit 0d1cdf394961ebdd574b60666545442c2196be4a (origin/main, origin/HEAD)
-Author: Bebesova <Zevaliheim@gmail.com>
-Date:   Wed Mar 13 13:50:12 2024 +0500
-
-    пятый
-
-diff --git a/text.txt b/text.txt
-index b178657..85954ea 100644
---- a/text.txt
-+++ b/text.txt
-@@ -1,4 +1,5 @@
- 1
- 2
- 3
--4
-\ No newline at end of file
-+4
-+5
-\ No newline at end of file
 ```
 ## 12.Убрать изменения относительно последнего коммита из файла. 
 ```
