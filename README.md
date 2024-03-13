@@ -1,21 +1,23 @@
+https://github.com/Bebesova/pib
 ## 1. Создать учетную запись на ресурсе github.com
 ```
    git config --global user.name "Bebesova"
    git config --global user.email "zevaliheim@gmail.com"
 ```
-## 2. Создать на ресурсе github.com репозиторий для выполнения практической работы
- git init
-## 3. Создать папку для работы с Git. 
-
 ## 4. Создать локальный репозиторий в текущей папке. 
 ```
-git clone thhps://github.com/bebesova/pib.git
+git init
 ```
 ## 5. Добавьте туда пустой текстовый документ. 
 ```
 git add text.txt
 ```
 ## 6. Сформируйте этот документ, создавая commit для каждого абзаца, не  менее 5 абзацев. 
+```
+git commit -m "Первый "
+```
+И так еще 4 раза
+
 ## 7. Посмотреть статус текущего репозитория. 
 ```
 git status
@@ -86,12 +88,12 @@ git checkout NewBranch
 ```
 git checkout -b supernewbranch
 ```
-##17.Удалить ветку.  
+## 17.Удалить ветку.  
 для выполнения следующего действия необходимы было поменять ветвь 
 ```
 git branch -d supernewbranch
 ```
-18.Добавить (merge) изменения из указанной ветки в текущую. 
+## 18.Добавить (merge) изменения из указанной ветки в текущую. 
 ```
 $ git merge main
 ```
@@ -132,9 +134,10 @@ git branch -D newbranch
 git merge --abort
 ```
 ## 26.Отправить изменения из локального репозитория для указанной ветки в удаленный (дистанционный). 
+![image](https://github.com/Bebesova/pib/blob/main/Screenshot_15.png)
 ## 27.Забрать изменения из репозитория, для которогобыли созданы удаленные ветки по умолчанию. 
 
 ## 28.Забрать изменения удаленной ветки из репозитория основной ветки по умолчанию. 
 
 ## 29.Создать копию репозитория.
-
+git clone thhps://github.com/bebesova/pib.git
